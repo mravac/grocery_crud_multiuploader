@@ -433,7 +433,7 @@ class Grocery_CRUD_Multiuploader extends grocery_CRUD
                         <span class="qq-upload-spinner" id="ajax-loader-file" style="display:none;"></span>
 			<span id="' . $this->upload_field . '_progress-multiple" style="display:none;"></span>
 		</div>
-		<select name="' . $this->upload_field . '_files[]" multiple="multiple" size="8" class="multiselect" id="' . $this->upload_field . '_multiple_select" style="display:none;">
+		<select name="' . $this->upload_field . '_files[]" multiple="multiple" size="8" class="multiupload" id="' . $this->upload_field . '_multiple_select" style="display:none;">
 		</select>
 		<div id="' . $this->upload_field . '_list_svc" class="mutiupload_list" style="margin-top: 40px;">
 		</div>';
@@ -483,7 +483,7 @@ class Grocery_CRUD_Multiuploader extends grocery_CRUD
 				name="' . $this->upload_field . '_files[]" 
 			    multiple="multiple" 
 			        size="8" 
-			       class="multiselect" 
+			       class="multiupload" 
 				  id="' . $this->upload_field . '_multiple_select" 
                                style="display:none;">';
 
